@@ -1,0 +1,45 @@
+#tooltip-top > .tooltip-inner {
+  background-color: #fff;
+  color: #062e56;
+  border: 1px solid #000000;
+}
+
+#tooltip-top > .tooltip-arrow {
+  border-top: 5px solid #000000;
+}
+.tooltip-inner {
+  background-color: #fff;
+  color: #062e56;
+  border: 1px solid #000000;
+  padding: 0px;
+}
+
+.bs-tooltip-auto[x-placement^='top'] .arrow::before,
+.bs-tooltip-top .arrow::before {
+  border-top-color: #000000;
+}
+
+.tooltipCardBody {
+  padding: 0.8rem;
+}
+
+.tooltipCardTitle {
+  font-size: '25px';
+}
+
+.tooltipCardText {
+  font-size: medium;
+  text-align: left;
+}
+
+.tooltipCardTitle {
+  font-size: x-large;
+}
+
+.breakPointIcon:hover {
+  color: #ec7063 !important;
+}
+
+.breakPointLink {
+  color: #212f3c;
+}
